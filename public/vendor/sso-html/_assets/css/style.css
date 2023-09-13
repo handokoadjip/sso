@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Jumbotron */
+.bg-jumbotron {
+  border-bottom-left-radius: 80% 20%;
+  border-bottom-right-radius: 80% 20%;
+  width: 100%;
+}
+
+/* Footer */
+.bg-footer {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  padding: 100px 0 0 0;
+  box-sizing: border-box;
+}
+
+.bg-footer:before {
+  content: '';
+  position: absolute;
+  background: white;
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  border-radius: 0 0 40% 40%;
+  transform: translatey(-30%);
+}
+
+/* Utility */
+.bg-primary {
+  background: linear-gradient(180deg, #3F81DB 25.37%, rgba(67, 192, 158, 0.98) 93.84%) !important;
+}
+
+.bg-primary-revrese {
+  background: linear-gradient(180deg, rgba(67, 192, 158, 0.98) 31.22%, #3F81DB 115.47%);
+}
+
+.bg-primary-side {
+  background: linear-gradient(90deg, #46C2A0 15.79%, #3355AB 65.37%) !important;
+}
+
+.bg-muted {
+  background-color: #F6F6F6;
+}
+
+.bg-blue {
+  background: #3355AB !important;
+}
+
+.bg-red {
+  background: #FF6363 !important;
+}
+
+.text-primary {
+  color: #389DE7 !important;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #3355AB;
+  border-color: #3355AB;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #1c3a86;
+  border-color: #1c3a86;
+}
+
+.btn-secondary {
+  color: #fff;
+  background-color: #FF6363;
+  border-color: #FF6363;
+}
+
+.btn-secondary:hover {
+  color: #fff;
+  background-color: #e85050;
+  border-color: #e85050;
+}
+
+.card {
+  border: 0;
+}
+
+.rounded-10px {
+  border-radius: 10px;
+}
+
+.rounded-30px {
+  border-radius: 30px;
+}
+
+.elipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+.min-vh-40 {
+  min-height: 40vh;
+}
+
+.z-index-999 {
+  z-index: 999;
+}
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (min-width: 575.98px) { }
+
+/* Small devices (landscape phones, less than 768px) */
+@media (min-width: 767.98px) {
+  .w-sm-0 {
+    width: auto !important;
+  }
+ }
+
+/* Medium devices (tablets, less than 992px) */
+@media (min-width: 991.98px) {}
+
+/* Large devices (desktops, less than 1200px) */
+@media (min-width: 1199.98px) {
+  .w-lg-50 {
+    width: 50% !important;
+  }
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (min-width: 1399.98px) { }
